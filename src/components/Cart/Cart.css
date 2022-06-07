@@ -1,0 +1,15 @@
+.table td,
+.table th {
+  vertical-align: middle;
+}
+.iconDelete{
+  width: 20px;
+  height: 20px;
+}
+.btn-cart{
+  width: 100%;
+  text-align-last: center !important;
+}
+.imageCartEmpty{
+  padding-top: 100px;
+}

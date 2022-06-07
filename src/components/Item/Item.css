@@ -1,0 +1,86 @@
+.product-img {
+    width: 256px;
+    height: 256px;
+    max-width: 256px;
+    max-height: 256px;
+    object-fit: contain;
+}
+.card {
+    text-align: center;
+    margin: 20px;
+    border: 1px solid lightgray;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+.card:hover{
+    border: 1px solid rgb(177, 179, 72);
+}
+
+.header, .footer, .content {
+    width: 100%;
+}
+
+.header, .footer {
+    height: 10%;
+}
+
+.header {
+    border-bottom: 2px solid lightgray;
+}
+
+.footer {
+    border-top: 2px solid lightgray;
+}
+
+.content {
+    height: 80%;
+}
+
+.third {
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #bea55e inset, 0 0 0 0 #ebe189;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 #854101 inset, 0 0 10px 4px #a58429;
+  }
+
+  .btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  .is-light{
+      color: #000000 !important;
+  }
