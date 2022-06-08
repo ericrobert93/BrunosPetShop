@@ -2,7 +2,7 @@
 
 _Bruno´s Pet Shop es un proyecto propio de una página web, el cual es impulsado por el curso de React Js dictado por Coder House._
 
-![]gif-Proyecto-final.gif
+![](gif-Proyecto-final.gif)
 
 ## Comenzando 🚀
 
